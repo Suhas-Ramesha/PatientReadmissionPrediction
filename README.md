@@ -43,11 +43,11 @@ Install the required libraries:
 ```bash
 Copy
 pip install -r requirements.txt
-Step 3: Download the Dataset
-Download the dataset from the UCI Repository or Kaggle.
 ```
-Rename the dataset to diabetes_data.csv.
+###Step 3: Download the Dataset
 
+Download the dataset from the UCI Repository or Kaggle.
+Rename the dataset to diabetes_data.csv.
 Place it in the data/ folder.
 
 ### Step 4: Train the Model
@@ -56,15 +56,17 @@ Run the script to preprocess the data, train the model, and save it:
 ```bash
 Copy
 python app/model.py
-Step 5: Start the Flask API
-Run the Flask app to serve predictions:
 ```
+###Step 5: Start the Flask API
+Run the Flask app to serve predictions:
+
 ```bash
 Copy
 python app/web_service.py
-Step 6: Launch the Streamlit Dashboard
-Run the Streamlit app for interactive predictions:
 ```
+###Step 6: Launch the Streamlit Dashboard
+Run the Streamlit app for interactive predictions:
+
 ```bash
 Copy
 streamlit run dashboard/streamlit_app.py
@@ -94,18 +96,19 @@ Create a new branch:
 ```bash
 Copy
 git checkout -b feature/your-feature-name
-Commit your changes:
 ```
+Commit your changes:
 ```bash
 Copy
 git commit -m "Add your message here"
-Push to the branch:
 ```
+Push to the branch:
+
 ```bash
 Copy
 git push origin feature/your-feature-name
-Open a pull request.
 ```
+Open a pull request.
 ### Contact
 For questions or feedback, please contact:
 
